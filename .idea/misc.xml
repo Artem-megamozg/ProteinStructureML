@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+    <option name="sdkName" value="Python 3.10 (ProteinStructureML)" />
+  </component>
+  <component name="GitLabDefaultAccount">
+    <option name="defaultAccountId" value="e794b628-73f0-4b88-89f5-87d1778f03ef" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (ProteinStructureML)" project-jdk-type="Python SDK" />
+</project>
