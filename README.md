@@ -1,4 +1,4 @@
-# Exp2Struct
+# ProteinStructureML
 
 **Experimental Data → Protein Structure Prediction**
 
@@ -138,7 +138,7 @@ Protein Structure
 ## Repository Structure
 
 ```text
-Exp2Struct/
+ProteinStructureML/
 │
 ├── README.md
 ├── LICENSE
@@ -174,8 +174,8 @@ Exp2Struct/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Exp2Struct.git
-cd Exp2Struct
+git clone https://github.com/Artem-megamozg/ProteinStructureML.git
+cd ProteinStructureML
 ```
 
 Create virtual environment:

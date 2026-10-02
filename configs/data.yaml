@@ -1,0 +1,32 @@
+dataset:
+  name: "protein_structure_dataset"
+
+  sequence_column: "sequence"
+  target_column: "structure"
+
+  protein_id_column: "protein_id"
+
+  train_ratio: 0.8
+  validation_ratio: 0.1
+  test_ratio: 0.1
+
+features:
+  amino_acid_encoding: "one_hot"
+  include_sequence_length: true
+  include_experimental_data: true
+
+experimental_data:
+  enabled: true
+  format: "auto"
+  normalize: true
+  missing_value_strategy: "mean"
+
+structure:
+  representation: "distance_map"
+  contact_threshold_angstrom: 8.0
+
+preprocessing:
+  max_sequence_length: 1024
+  min_sequence_length: 20
+  remove_duplicates: true
+  random_seed: 42

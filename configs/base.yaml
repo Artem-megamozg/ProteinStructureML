@@ -1,0 +1,30 @@
+project:
+  name: "ProteinStructureML"
+  version: "0.1.0"
+  seed: 42
+
+data:
+  raw_dir: "data/raw"
+  interim_dir: "data/interim"
+  processed_dir: "data/processed"
+
+experiment:
+  output_dir: "results"
+  models_dir: "models"
+
+training:
+  device: "auto"
+  batch_size: 32
+  epochs: 50
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  num_workers: 0
+
+model:
+  name: "baseline"
+  hidden_dim: 256
+  dropout: 0.2
+
+evaluation:
+  test_size: 0.2
+  random_state: 42
